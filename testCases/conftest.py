@@ -28,7 +28,7 @@ def browser(request):  # This will return the Browser value to setupp method
 def pytest_metadata(metadata):
     metadata['Project Name'] = 'nop Commerce'
     metadata['Module Name'] = 'Customers'
-    metadata['Tester'] = 'Pavan'
+    metadata['Tester'] = 'Mansi'
 
 # It is hook for delete/Modify Environment info to HTML Report
 #@pytest.mark.optionalhook
