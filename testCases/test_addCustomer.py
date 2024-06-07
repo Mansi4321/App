@@ -45,11 +45,11 @@ class Test_003_AddCustomer:
         self.addcust.setPassword("test123")
         self.addcust.setCustomerRoles("Guests")
         self.addcust.setManagerOfVendor("Vendor 2")
-        self.addcust.setGender("Male")
-        self.addcust.setFirstName("Pavan")
-        self.addcust.setLastName("Kumar")
+        self.addcust.setGender("Female")
+        self.addcust.setFirstName("Mansi")
+        self.addcust.setLastName("Mishra")
         self.addcust.setDob("7/05/1985")  # Format: D / MM / YYY
-        self.addcust.setCompanyName("busyQA")
+        self.addcust.setCompanyName("QA")
         self.addcust.setAdminContent("This is for testing.........")
         self.addcust.clickOnSave()
 
